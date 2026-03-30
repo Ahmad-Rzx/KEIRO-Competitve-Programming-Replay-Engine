@@ -1,0 +1,67 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── FastAPI / backend ────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── C++ build artifacts ──────────────────────────────────
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+*.dSYM/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+compile_commands.json
+
+# ── Keiro trace files (user-generated, not committed) ────
+*.keiro
+traces/
+
+# ── Temp compiled submissions ────────────────────────────
+backend/sandbox/
+backend/tmp/
+backend/compiled/
+
+# ── React / Node ─────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+.npm/
+*.tsbuildinfo
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editors ──────────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
