@@ -156,13 +156,6 @@ keiro/
 - [ ] DSU renderer
 - [ ] Java support (planned)
 - [ ] `.keiro` file sharing + embed links
-
----
-
-## Course Context
-
-Built as a semester project for a Data Structures & Algorithms course. The project deliberately selects problems where the right data structure isn't incidental — the entire tool *is* an argument for why data structures matter.
-
 ---
 
 ## Authors
